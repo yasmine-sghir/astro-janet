@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Merienda:400');
+
+input {
+ font-size: inherit;
+ font-family: inherit;
+ outline: none;
+}
+
+.main_content {
+ height: 100vh;
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+
+ font-family: "Merienda", sans-serif;
+ font-size: calc(1em + 1vw);
+
+ background: #B8281D;
+ background: linear-gradient(90deg, #680a03 0%, #851f1f 100%);
+}
+
+ header {
+     padding-top: 30px;
+     padding-bottom: 30px;
+   flex: 0 0 auto;
+   display: flex;
+   justify-content: center;
+
+   background: rgba(0, 0, 0, .25);
+ }
+
+#input{
+     min-width: 50%;
+     background: rgba(0, 0, 0, .25);
+     border: 2px solid rgb(255, 217, 0);
+     border-radius: 5px;
+     text-align: center;
+     font-size: 80%;
+     color: rgb(255, 217, 0);
+     
+   }
+
+
+ main {
+   flex: 1 1 auto;
+   overflow-y: auto;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+#image{
+   height: calc(5em + 2vw);
+   width: calc(5em + 2vw);
+   margin-bottom: calc(.5em + .5vw);
+   background-color: rgb(255, 217, 0);
+}
+   #text {
+     color: rgb(255, 217, 0);
+     text-align: center;
+   }
+
+ 
+ footer {
+   flex: 0 0 auto;
+   padding: 5px;
+   text-align: right;
+   font-size: 40%;
+ }
+   a {
+     color: inherit;
+   }
